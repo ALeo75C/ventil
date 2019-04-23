@@ -1,0 +1,118 @@
+@import "reset.css";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=cyrillic');
+
+body {
+  margin: 50px auto 0;
+  font-family: 'Roboto', sans-serif;
+  width: 80vw;
+}
+
+header {
+  height: 105px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(218, 214, 214, 0.97);
+}
+header img {
+  width: 288px;
+  height: 76px;
+}
+
+article {
+  margin-top: 88px;
+}
+
+.slid {
+  width: 100%;
+  height: 660px;
+  margin: 0 auto;
+  background-color: #FFCC00;
+}
+
+h2 {
+  font-size: 72px;
+  font-weight: 700;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.card {
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+  width: 382px;
+  height: 575px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.photo {
+  border-radius: 50%;
+  background-color: #FFCC00;
+  width: 187px;
+  height: 187px;
+}
+.card h3 {
+  font-size: 29px;
+  font-weight: 700;
+  margin-top: 45px;
+}
+.card h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.card p {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 20px;
+  width: 280px;
+}
+
+a {
+  padding: 32px 130px;
+  margin: 160px auto 0;
+  background-color: #FFCC00;
+  border-radius: 50px;
+  font-size: 38px;
+  font-weight: 700;
+  display: table;
+}
+
+footer {
+  background: #FFCC00;
+  width: 100vw;
+  margin-left: -10vw;
+  margin-top: 140px;
+}
+footer p {
+  margin-left: 10vw;
+  padding-top: 60px;
+  font-weight: 300;
+  font-size: 30px;
+}
+.adress {
+  margin: 80px 10vw 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.adress h3 {
+  font-weight: bold;
+  font-size: 36px;
+}
+footer div p {
+  max-width: 313px;
+  font-size: 28px;
+  margin: 0;
+  padding-top: 30px;
+  line-height: 34px;
+}
+.foot {
+  padding: 20px 0 30px;
+  margin:  0 10vw;
+  display: flex;justify-content: space-between;
+  font-size: 18px;
+  border-top: 1px solid rgba(0, 0, 0, 0.97);
+}
